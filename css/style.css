@@ -12,23 +12,31 @@ RESET
 
 /*
 
+HEADER
+
+*/
+.my-nav{
+    background-color: #2C3E50;
+}
+
+
+/*
+
 debug
 
 */
 
-header{
-    background-color: aqua;
-}
 
-main{
-    background-color: crimson;
-}
 
-footer{
+.debug footer{
     background-color: darkorange;
 }
 
-.row>*{
+.debug .row>*{
     border: 1px dashed black;
+}
+
+.container>section{
+    background-color: #1ABC9C;
 }
 
