@@ -22,21 +22,35 @@ HEADER
 
 /*
 
+MAIN
+
+*/
+
+main h1{
+    font-size: 3em;
+}
+
+.my-star{
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.my-hr-white{
+    border: 2px solid white;
+}
+
+.my-hr-black{
+    border: 2px solid black;
+}
+/*
+
 debug
 
 */
 
 
-
-.debug footer{
-    background-color: darkorange;
-}
-
 .debug .row>*{
-    border: 1px dashed black;
+   
 }
 
-.container>section{
-    background-color: #1ABC9C;
-}
 
